@@ -1,16 +1,20 @@
 Bashee (Chikungunya Project)
 =============================
 
-Construir un ligero framework bash-oriented, para el desarrollo de aplicaciones orientadas a la consola.
-Utiliza lo más básico de bash-shell, sed, awk, grep, simplificando el uso de las herramientas.
+Light Bash framework, to build shell-oriented applications, console-based scripts and other tools.
+simplifies use of bash, sed, awk, grep, tc, xargs and others tools and commands.
 
 Features
 --------
 
+* Multiple Linux distribution support (Debian, CentOS)
+* Easy to use bash-functions for shell-based scripts
 
 
 Requirements
 ------------
+
+All scripts was tested for Debian wheezy (7.5) and higher, CentOS (6.4) and higher.
 
 * bash (version)
 * lsb-release
@@ -18,8 +22,9 @@ Requirements
 Credits
 -------
 
-* **Jesus Lara**
-* **ZABBIX SIA** of course
+* **Axel Beckert** <abe@debian.org>
+* **Daniel Lezcano** <daniel.lezcano@free.fr>
+* **Graham Williams** <Graham.Williams@togaware.com>
 
 License
 -------
